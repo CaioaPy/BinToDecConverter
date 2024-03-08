@@ -10,4 +10,5 @@ for n in reversed(range(0, 8)):
         num_bin.append("1")
     elif num_dec < n:
         num_bin.append("0")
-print(num_bin)
+print("Number in binary: ")
+print("".join(num_bin))
