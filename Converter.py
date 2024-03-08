@@ -66,3 +66,4 @@ elif num_dec <= 258:
                 elif num_dec <= 1:
                   num_bin.append("0")
                   print(str(num_dec) + "remains")
+print(num_bin)
