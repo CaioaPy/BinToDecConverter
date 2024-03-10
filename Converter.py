@@ -2,6 +2,7 @@ num_dec = input("Insert the decimal number you wish to convert to binary: \n")
 
 # list that gonna show the binary number at the end of the code
 num_bin = []
+# number reciver
 num_dec = int(num_dec)
 
 for n in reversed(range(0, 8)):
