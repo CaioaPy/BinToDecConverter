@@ -5,7 +5,7 @@ num_bin = []
 # number reciver
 num_dec = int(num_dec)
 
-for n in reversed(range(0, 8)):
+for n in reversed(range(0, 12)):
     n = 2**n
     if num_dec>=n:
         num_dec = num_dec - n
